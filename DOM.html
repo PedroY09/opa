@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N</title>
+    <style>
+        body{
+            background-color: rgb(24, 167, 177);
+            color: white;
+            font: 18pt Arial;
+        }
+
+    </style>
+
+</head>
+<div id="bc">
+<body>
+    <h1>iae neu mano</h1>
+    <p> aqui vai o resultado</p>
+    <p>aprendendo a usar o <strong>Dom</strong> em js</p>
+    <div>clique em mim</div>
+    <script>
+        var corb = window.prompt(" Escolha seu background/ verde = 1/ Azul = 2/ vermelho = 3")
+        if(corb == '1'){
+            var v = window.document.getElementById('bc')
+            v.style.background = 'green'
+        }else if (corb == '2'){
+            var v = window.document.getElementById('bc')
+            v.style.background = 'blue'
+            
+        }else {
+            var v = window.document.getElementById('bc')
+            v.style.background = 'red'
+        }
+
+
+
+    </script>
+
+
+</body>
+</div>
+</html>
