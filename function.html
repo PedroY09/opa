@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#a{ 
+            font: normal 20pt Aral;
+            background-color: rgb(48, 216, 48);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="a">
+        interaja
+    </div>
+    <script>
+
+        var intera = window.document.getElementById('a')
+        intera.addEventListener('click', clicou)
+        intera.addEventListener('mouseenter', entrou)
+        intera.addEventListener('mouseout', saiu)        
+        function clicou(){
+            intera.innerHTML = 'clicou'
+                    }
+        function entrou(){
+            intera.innerHTML = 'entrou'
+    
+        }         
+        function saiu(){
+            intera.innerHTML = 'saiu'
+        }
+
+
+
+    </script>
+</body>
+</html>
