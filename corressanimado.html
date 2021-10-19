@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" id="aa">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="a.css">
+        <title>Document</title>
+        <style>
+            body{
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                font-family: ubuntu, Arial, Helvetica, sans-serif;
+                color: black;
+                border-left: 4px;
+                
+            }
+            a:hover{
+                padding-left: 30px;
+                border-left: 4px solid gray;
+                color: gray;
+                transition: .4s;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 id="l">COR</h1>
+        <a href="corressanimado.html" id="a"></a>
+    <script>
+        
+        // Amarelo,Azul e vermelho
+        alert("esolha a mistura de cores!")
+        var cor1 = window.prompt("amarelo = 1/ azul = 2/ vermelho = 3")
+        var cor2 = window.prompt("amarelo = 1/ azul = 2/ vermlho = 3")
+        if (cor1=='1' & cor2=='1'){
+            var a = window.document.getElementById('aa')
+            aa.style.background = 'yellow'
+            alert('AMARELOOOO!')
+            var l = window.document.getElementById('l')
+            l.innerHTML = 'AMARELO'
+            l.style.fontFamily = 'fantasy'
+        }else if (cor1=='1' & cor2=='2'){
+            var a = window.document.getElementById('aa')
+            aa.style.background = ' green'
+            alert('VERDEEE!')
+            var l = window.document.getElementById('l')
+            l.innerHTML = "VERDEEE!"
+            l.style.fontFamily = 'fantasy'
+        }else if (cor1=='1' & cor2=='3'){
+            var a = window.document.getElementById('aa')
+            aa.style.background = 'orange'
+            alert('LARANNNNJAAAA!')
+            var l = window.document.getElementById('l')
+            l.innerHTML = "LARANJAAAAAAAAAAAAAA!"
+            l.style.fontFamily='fantasy'
+        }else if (cor1=='2' & cor2=='1'){
+            var a = window.document.getElementById('aa')
+            aa.style.background = ' green'
+            alert('VERDEEE!')
+            var l = window.document.getElementById('l')
+            l.innerHTML = 'Verdeeeeeeeee'
+            l.style.fontFamily= 'fantasy'
+        }else if (cor1=='2' & cor2=='2'){
+            var a = window.document.getElementById('aa')
+            aa.style.background = '#00BFFF'
+            alert('Azullll!')
+            var l = window.document.getElementById('l')
+            l.innerHTML = 'azulll'
+            l.style.fontFamily = 'fantasy'
+        }else if (cor1=='2' & cor2=='3'){
+            var a = window.document.getElementById('aa')
+            aa.style.background = '#A020F0'
+            alert('Roxooooo')
+            var l = window.document.getElementById('l')
+            l.innerHTML = 'roxoo'
+            l.style.fontFamily = 'fantasy'
+        }else if (cor1=='3' & cor2=='1'){
+            var a = window.document.getElementById('aa')
+            aa.style.background = '#FFA500'
+            alert('LARANNNNNNNJAAAAAAAAAAAA')
+            var l = window.document.getElementById('l')
+            l.innerHTML = 'laranja'
+            l.style.fontFamily = 'fantasy'
+        }else if (cor1=='3' & cor2=='2'){
+            var a = window.document.getElementById('aa')
+            aa.style.background="#A020F0"
+            alert('ROXOOOOOOOOOOOOOOOOOOOO')
+            var l = window.document.getElementById('l')
+            l.innerHTML = 'roxo'
+            l.style.fontFamily = 'fantasy'
+        }else if (cor1=='3' & cor2=='3'){
+            var a = window.document.getElementById('aa')
+            aa.style.background='#FF0000'
+            alert('vermelhooooo')
+            var l = window.document.getElementById('l')
+            l.innerHTML = 'vermelho'
+            l.style.fontFamily = 'fantasy'
+        }else{
+            window.alert('você digitou errado tente novamente')
+            var link = window.document.getElementById('a')
+            link.innerHTML = 'Tente Novamente'
+        }
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    </body>
+</html>
