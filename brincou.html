@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div#int{
+            font-size: small;
+            color: white;
+            font: normal Arial;
+            width: 60px;
+            height: 60px;
+            background-color: green;
+            text-align: center;
+            line-height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div id="int">
+        interaja...
+    </div>
+    <script>
+        var di = document.getElementById('int')
+        di.addEventListener('click', click)
+        di.addEventListener('mouseenter', enter)
+        di.addEventListener('mouseout', out)
+        function click(){
+            di.innerHTML = 'boy'
+            di.style.width = '1200px'
+            di.style.height = '900px'
+            di.style.lineHeight = '900px'
+            di.style.fontSize = '600px'
+        }
+       function enter(){
+           di.innerHTML = 'entrei'
+       } 
+       function out(){
+           di.innerHTML = 'sai'
+           di.style.width = '60px'
+           di.style.height = '60px'
+           di.style.lineHeight = '60px'
+           di.style.fontSize = 'small'
+       }
+
+    </script>
+</body>
+</html>
