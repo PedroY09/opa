@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=<"viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 10pt Arial;
+        }
+        input{
+            width: 50px;
+        }
+        input#but{
+            width: 35px;
+        }
+        div#resul{
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mostraremos o quadrado desdes números</h1>
+    <input type="number" name="" id="num1">
+    <input type="number" name="" id="num2">
+    <input type="number" name="" id="num3">
+    <input type="number" name="" id="num4">
+    <input type="button" value="ver" id="but">
+    <div id="resul">
+        Aqui mostraremos os valores....
+    </div>
+    <script>
+        var but = document.getElementById('but')
+        but.addEventListener('click', click)
+        var resul = document.getElementById('resul')
+        
+        function click(){
+            var num1 = document.getElementById('num1')
+            var num2 = document.getElementById('num2')
+            var num3 = document.getElementById('num3')
+            var num4 = document.getElementById('num4')
+            var but = document.getElementById('but')
+            var n1 = Number(num1.value)
+            var n2 = Number(num2.value)
+            var n3 = Number(num3.value)
+            var n4 = Number(num4.value)
+            resul.innerHTML = `o valor de ${n1} ao quadrado é igual a ${n1**2} <br>`
+            resul.innerHTML += `o valor de ${n2} ao quadrado é igual a ${n2**2} <br>`
+            resul.innerHTML += `o valor de ${n3} ao quadrado é igual a ${n3**2} <br>`
+            resul.innerHTML += `o valor de ${n4} ao quadrado é igual a ${n4**2} <br>`
+
+        }
+    </script>
+</body>
+</html>
