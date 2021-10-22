@@ -1,0 +1,22 @@
+body {
+    background: cornflowerblue;
+    font: normal 15pt;
+}
+header {
+    color: crimson;
+    text-align: center;
+}
+section {
+    background: chartreuse;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: chartreuse;
+
+}
+footer {
+    color: darkblue;
+    text-align: center;
+    font-style: italic;
+}
