@@ -1,0 +1,30 @@
+body {
+    background: cornflowerblue;
+    font: normal 15pt;
+}
+header {
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+section {
+    background: rgba(2, 2, 2, 0.651);
+    border-radius: 10px;
+    padding: 15px;
+    width: 450px;
+    margin: auto;
+    box-shadow: rgb(255, 174, 0);
+    color: white;
+
+}
+footer {
+    color: rgba(5, 5, 5, 0.637);
+    text-align: center;
+    font-style: italic;
+}
+img#foto{
+    width: 400px;
+    height: 400px;
+}
+div#res{
+    text-align: center;
+}
