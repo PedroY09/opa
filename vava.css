@@ -1,0 +1,30 @@
+select{
+    width: 150px;
+}
+    body{
+        background-color: #000000;
+        font: normal 12pt  Arial;
+    }
+    header, footer{
+        text-align: center;
+        color: #00FFFF;
+    }
+    section{
+        background:#00BFFF;
+        width: 500px;
+        margin: auto;
+        border-radius: 6px;
+        padding: 20px;
+        box-shadow: 7px 7px 10px #e2e2e2;
+        
+    }
+
+    input, select{
+        background-color:#ADD8E6;
+    }
+    input#num{
+        width:60px;
+    }
+    input#sexta,select{
+        margin-top: 10px;
+    }
